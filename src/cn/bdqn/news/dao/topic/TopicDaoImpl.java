@@ -72,4 +72,19 @@ public class TopicDaoImpl extends BaseDao implements TopicDao {
         }
         return result;
     }
+
+    @Override
+    public int modifyTopic(Topic topic) {
+        int result=0;
+
+        try {
+            //编写SQL语句
+            String sql="update topic set tname=? where tid=?";
+            result=this.exceuteUpdate(sql,topic.gettName(),topic.gettId());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return result;
+    }
 }

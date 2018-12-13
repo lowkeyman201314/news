@@ -22,7 +22,7 @@
 
     <tr>
         <td><%=topic.gettName()%>&emsp;&emsp;&emsp;</td>
-        <td><a href="#">修改</a>&emsp;&emsp;&emsp;</td>
+        <td><a href="modifyTopicControl.jsp?id=<%=topic.gettId()%>&name=<%=topic.gettName()%>">修改</a>&emsp;&emsp;&emsp;</td>
         <td><a href="#">删除</a>&emsp;&emsp;&emsp;</td>
     </tr>
 

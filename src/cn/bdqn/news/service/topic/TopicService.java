@@ -16,4 +16,6 @@ public interface TopicService {
     Topic queryTopicByName(String tName);
     //新增主题
     int addNewTopic(String tName);
+    //根据id修改主题
+    int modifyTopic(Topic topic);
 }

@@ -27,4 +27,9 @@ public class TopicServiceImpl implements TopicService {
     public int addNewTopic(String tName) {
         return topicDao.addNewTopic(tName);
     }
+
+    @Override
+    public int modifyTopic(Topic topic) {
+        return topicDao.modifyTopic(topic);
+    }
 }

@@ -1,5 +1,6 @@
 package cn.bdqn.news.test;
 
+import cn.bdqn.news.pojo.Topic;
 import cn.bdqn.news.service.topic.TopicService;
 import cn.bdqn.news.service.topic.TopicServiceImpl;
 import org.junit.Test;
@@ -23,5 +24,12 @@ public class TopicTest {
     @Test
     public void testInsertNewTopic(){
         System.out.println(topicService.addNewTopic("恐怖"));
+    }
+    @Test
+    public void testUpdateTopic(){
+        Topic topic=new Topic();
+        topic.settId(45);
+        topic.settName("测试");
+        System.out.println(topicService.modifyTopic(topic));
     }
 }
