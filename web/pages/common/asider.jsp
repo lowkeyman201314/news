@@ -7,11 +7,9 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!--左侧功能链接-->
-<asider class="newsList">
-    <ul>
-        <li><a href="#">添加新闻</a></li>
-        <li><a href="#">编辑新闻</a></li>
-        <li><a href="pages/addTopic.jsp">添加主题</a></li>
-        <li><a href="pages/topicsControl.jsp">编辑主题</a></li>
-    </ul>
-</asider>
+<ul>
+    <li><a href="#">添加新闻</a></li>
+    <li><a href="#">编辑新闻</a></li>
+    <li><a href="/pages/addTopic.jsp">添加主题</a></li>
+    <li><a href="/pages/publicTopicControl.jsp?opr=query">编辑主题</a></li>
+</ul>

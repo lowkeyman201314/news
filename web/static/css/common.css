@@ -28,13 +28,14 @@ section{
 }
 .newsContent{
     width: 83%;
-    height: 100%;
-    float: right;
+    height: 300px;
+
 }
-.showContent{
-    width: 1000px;
-    height: 400px;
-    border: 1px solid lightgrey;
+article{
+    text-align: left;
+}
+ul{
+    border-right: 1px solid royalblue;
 }
 .footer{
     width: 1200px;

@@ -18,4 +18,6 @@ public interface TopicDao {
     int addNewTopic(String tName);
     //根据id修改主题
     int modifyTopic(Topic topic);
+    //根据id删除主题
+    int delTopic(int id);
 }

@@ -20,7 +20,7 @@
     if (result==1) {
         out.print("<script>");
         out.print("alert('主题修改成功！');");
-        out.print("location.href='topicsControl.jsp';");
+        out.print("location.href='publicTopicControl.jsp?opr=query';");
         out.print("</script>");
     }else{
         out.print("<script>");

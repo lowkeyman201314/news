@@ -32,4 +32,8 @@ public class TopicTest {
         topic.settName("测试");
         System.out.println(topicService.modifyTopic(topic));
     }
+    @Test
+    public void testDelTopic(){
+        System.out.println(topicService.delTopic(42));
+    }
 }

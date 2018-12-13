@@ -32,4 +32,9 @@ public class TopicServiceImpl implements TopicService {
     public int modifyTopic(Topic topic) {
         return topicDao.modifyTopic(topic);
     }
+
+    @Override
+    public int delTopic(int id) {
+        return topicDao.delTopic(id);
+    }
 }
