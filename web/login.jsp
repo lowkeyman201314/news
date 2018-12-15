@@ -11,7 +11,7 @@
     <title>用户登录</title>
 </head>
 <body>
-<form action="control.jsp" method="post">
+<form action="/login" method="post">
     <table align="center" border="0">
         <thead>
         <tr>
